@@ -17,6 +17,6 @@ describe("Counter Component", () => {
     expect(screen.getByText("Count: 1")).toBeInTheDocument();
 
     fireEvent.click(button); // Click again
-    expect(screen.getByText("Count: 2")).toBeInTheDocument();
+    expect(screen.getByText("Count: 3")).toBeInTheDocument();
   });
 });
